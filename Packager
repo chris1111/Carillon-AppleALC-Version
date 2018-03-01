@@ -1,0 +1,20 @@
+#!/bin/bash
+# Carillon Packager 
+# (c) Copyright 2017 chris1111
+#
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+echo "-------------------------------------"
+# shell script Notifications
+osascript -e 'display notification "Package Carillon" with title "Build"  sound name "default"'
+pkgbuild --root ./BuildPackage --scripts ./scripts --identifier com.Package.carillon --version 1 --install-location / Carillon.pkg
+
+productbuild --distribution  distribution.xml --resources ./Background --package-path ./Carillon.pkg ./MyCarillon.pkg
+
+Sleep 2
+echo -e "\x1B[01;94mAll good
+
+Done! \x1B[0m" 
+
+rm -rf ./Carillon.pkg
+open ./

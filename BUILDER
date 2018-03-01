@@ -1,0 +1,15 @@
+#!/bin/bash
+# Carillon Packager 
+# (c) Copyright 2017 chris1111
+#
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+echo "-------------------------------------"
+mkdir ./buildPackage/usr
+mkdir ./buildPackage/usr/local
+mkdir ./buildPackage/usr/local/bin
+xcodebuild -project ./Carillon.xcodeproj -alltargets -configuration Release
+cp -rp ./build/Release/Carillon ./buildPackage/usr/local/bin
+Sleep 2
+rm -rf ./build
+./Packager

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>Carillon</title>
+    <pkg-ref id="com.Package.carillon"/>
+    <options customize="never" allow-external-scripts="no" hostArchitectures="i386"/>
+    <domains enable_anywhere="true"/>
+    <welcome file="Welcome.rtf"/>
+    <background file="background" alignment="center" scaling="tofit"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.Package.carillon"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.Package.carillon" visible="false">
+        <pkg-ref id="com.Package.carillon"/>
+    </choice>
+    <pkg-ref id="com.Package.carillon" version="1" onConclusion="none">Carillon.pkg</pkg-ref>
+</installer-gui-script>
