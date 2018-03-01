@@ -18,6 +18,7 @@ No new icons or settings will be added. Reboot your system to enjoy.
 
 ![Modular Image Creation](https://i62.servimg.com/u/f62/18/50/18/69/captu325.png)
 
+### You need Xcode
 
 ##### Usage: Download or clone Carillon-AppleALC-Version-master
 - To compile the binary file and create the package, double-click on the Builder file
