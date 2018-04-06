@@ -23,6 +23,11 @@ You need Xcode
 ##### Usage: Download or clone Carillon-AppleALC-Version-master (You need Xcode)
 - To compile the binary file and create the package, double-click on the Builder file
 
+##### Usage commande Line
+- cd ~/
+- git clone https://github.com/chris1111/Carillon-AppleALC-Version.git
+- ~/Carillon-AppleALC-Version/BUILDER
+
 ##### Usage: Rebuild the Package
 - After compiling, you can recreate the package any time by double-clicking on the Packager file
 - You can change the description in the Welcome in background / Welcome; same thing with the Background file, you can change it.
