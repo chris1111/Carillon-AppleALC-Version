@@ -23,7 +23,7 @@ You need Xcode
 ##### Usage: Download or clone Carillon-AppleALC-Version-master (You need Xcode)
 - To compile the binary file and create the package, double-click on the Builder file
 
-##### Usage commande Line
+##### Usage command Line
 - cd ~/
 - git clone https://github.com/chris1111/Carillon-AppleALC-Version.git
 - ~/Carillon-AppleALC-Version/BUILDER
