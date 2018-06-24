@@ -5,9 +5,9 @@
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 echo "-------------------------------------"
-mkdir ./buildPackage/usr
-mkdir ./buildPackage/usr/local
-mkdir ./buildPackage/usr/local/bin
+mkdir -p ./buildPackage/usr
+mkdir -p ./buildPackage/usr/local
+mkdir -p ./buildPackage/usr/local/bin
 xcodebuild -project ./Carillon.xcodeproj -alltargets -configuration Release
 cp -rp ./build/Release/Carillon ./buildPackage/usr/local/bin
 Sleep 2
