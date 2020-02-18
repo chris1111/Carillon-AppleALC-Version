@@ -9,6 +9,9 @@
 ### This version of Carillon is specifically for User with AppleALC.kext
 Working also for VoodooHDA.kext (V-2.9.0) inject by Clover
 
+### Update for macOS Catalina 10.15
+[Download ➤ Carillon (macOS Catalina)](https://github.com/chris1111/Carillon-AppleALC-Version/releases/tag/V2)
+
 
 *Carillon* is an open source OS X app, specifically for Hackintosh machines, that plays the classic "Chime" boot sound on startup that real Macs have.
 
