@@ -1,10 +1,12 @@
 #!/bin/bash
 # Carillon Packager 
-# (c) Copyright 2017 chris1111
+# (c) Copyright 2017, 2022 chris1111
 #
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 echo "-------------------------------------"
+rm -rf ./buildPackage/usr
+rm -rf ./MyCarillon.pkg
 mkdir -p ./buildPackage/usr
 mkdir -p ./buildPackage/usr/local
 mkdir -p ./buildPackage/usr/local/bin

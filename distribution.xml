@@ -6,6 +6,7 @@
     <domains enable_anywhere="true"/>
     <welcome file="Welcome.rtf"/>
     <background file="background" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background" alignment="center" scaling="tofit"/>
     <choices-outline>
         <line choice="default">
             <line choice="com.Package.carillon"/>

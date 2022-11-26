@@ -1,10 +1,11 @@
 #!/bin/bash
 # Carillon Packager 
-# (c) Copyright 2017 chris1111
+# (c) Copyright 2017, 2022 chris1111
 #
 PARENTDIR=$(dirname "$0")
 cd "$PARENTDIR"
 echo "-------------------------------------"
+rm -rf ./MyCarillon.pkg
 # shell script Notifications
 osascript -e 'display notification "Package Carillon" with title "Build"  sound name "default"'
 pkgbuild --root ./BuildPackage --scripts ./scripts --identifier com.Package.carillon --version 1 --install-location / Carillon.pkg

@@ -1,5 +1,5 @@
 #!/bin/bash
 sudo chown root:wheel /usr/local/bin/Carillon
-sudo chown root:wheel /System/Library/LaunchDaemons/com.nicoswd.Carillon.plist
+sudo chown root:wheel /Library/LaunchDaemons/com.nicoswd.Carillon.plist
 
 
