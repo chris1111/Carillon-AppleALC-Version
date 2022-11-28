@@ -35,6 +35,9 @@ You need Xcode and the Command Line tools
 ##### Usage: Rebuild the Package
 - After compiling, you can recreate the package any time by double-clicking on the `Packager` file
 
+##### Usage: Uninstall Carillon
+- Double-clicking on the `Uninstall-Carillon.command` file
+
 - You can change the description in the Welcome in background / Welcome; same thing with the Background file, you can change it.
 
 ###  **ALTERNATIVE VERSION**
