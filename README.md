@@ -2,7 +2,7 @@
 #### This is a Fork of [nicoSWD / Carillon](https://github.com/nicoSWD/Carillon)
 
 ## Hackintosh Chime Boot Sound
-## Working for macOS Sierra 10.12 to macOS Ventura 13 
+## Working for macOS Sierra 10.12 to macOS Sequoia 15
 
 ### This version of Carillon is specifically for User with AppleALC.kext
 
@@ -12,7 +12,7 @@
 A new launch daemon will be added that triggers the sound, meaning, unlike most similar apps, this one runs much earlier during the boot process, even before the login screen appears.
 No crappy AppleScript solution that triggers when you're already on the Desktop, no outdated PrefPane
 
-It has currently been tested on macOS 11, 12, 13, macOS 10.15 macOS 10.14, macOS 10.13 and macOS 10.12, but it should work on previous and future versions as well. Please [report](https://github.com/chris1111/Carillon-AppleALC-Version/issues/new) any issues you may have.
+It has currently been tested on macOS 11, 12, 13, 14,15 macOS 10.15 macOS 10.14, macOS 10.13 and macOS 10.12, but it should work on previous and future versions as well. Please [report](https://github.com/chris1111/Carillon-AppleALC-Version/issues/new) any issues you may have.
 
 No new icons or settings will be added. Reboot your system to enjoy.
 
